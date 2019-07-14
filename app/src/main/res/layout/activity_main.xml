@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="30pt"
+              android:id="@+id/trackNameText"
+              tools:text="Enter a name for your tracker"
+              android:textSize="30dp"/>
+
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="30pt"
+            android:textSize="20dp"
+            android:layout_below="@+id/trackNameText"
+            android:text="@string/text"/>
+    <Button
+            android:id="@+id/btn_start_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:layout_below="@+id/text"
+            android:text="@string/location_settings"
+            android:layout_marginEnd="0dp"/>
+</RelativeLayout>
