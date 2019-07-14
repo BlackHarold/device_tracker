@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">simple_tracker</string>
+    <string name="location_settings">START SERVICE</string>
+    <string name="text">simple_tracker by Evgeniy Gul <a href="mailto:info@friendface.ru">info@friendface.ru</a></string>
+</resources>
