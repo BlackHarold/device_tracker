@@ -3,4 +3,5 @@
     <string name="location_settings">START SERVICE</string>
     <string name="text">simple_tracker by Evgeniy Gul <a href="mailto:info@friendface.ru">info@friendface.ru</a></string>
     <string name="hint_TextViewer">Enter tracker name here</string>
+    <string name="timeout">Enter here timeout in seconds</string>
 </resources>

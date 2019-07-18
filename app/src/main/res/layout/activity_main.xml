@@ -4,27 +4,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 tools:context=".MainActivity">
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:id="@+id/trackNameText"
               android:hint="@string/hint_TextViewer"
-              android:textSize="30sp"
+              android:text="was2"
+              android:layout_below="@+id/text"
+              android:inputType=""/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/timeoutText"
+              android:hint="@string/timeout"
+              android:text="30"
+              android:layout_below="@+id/trackNameText"
               android:inputType=""/>
 
     <TextView
-            android:id="@+id/text"
+            android:id="@+id/text2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-            android:layout_below="@+id/trackNameText"
+            android:layout_below="@+id/timeoutText"
             android:text="@string/text"/>
     <Button
             android:id="@+id/btn_start_service"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="40sp"
-            android:layout_below="@+id/text"
-            android:text="@string/location_settings"
-            android:layout_marginEnd="0dp"/>
+            android:layout_below="@+id/text2"
+            android:text="@string/location_settings"/>
 </RelativeLayout>
