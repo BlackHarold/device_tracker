@@ -14,6 +14,7 @@
               android:layout_height="wrap_content"
               android:id="@+id/trackNameText"
               android:hint="@string/hint_TextViewer"
+              android:text="was2"
               android:layout_below="@+id/text"
               android:inputType=""/>
 
@@ -21,6 +22,7 @@
               android:layout_height="wrap_content"
               android:id="@+id/timeoutText"
               android:hint="@string/timeout"
+              android:text="30"
               android:layout_below="@+id/trackNameText"
               android:inputType=""/>
 
